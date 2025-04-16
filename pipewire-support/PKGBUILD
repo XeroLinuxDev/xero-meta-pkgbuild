@@ -1,8 +1,8 @@
 # Maintainer: Librewish <librewish@gmail.com>
 
 pkgname=pipewire-support
-pkgver=1
-pkgrel=4
+pkgver=1.1
+pkgrel=5
 arch=('any')
 url="https://wiki.archlinux.org/index.php/PipeWire"
 license=('GPL')
@@ -14,6 +14,8 @@ depends=("gst-plugin-pipewire"
         "pipewire-jack"
         "pipewire-pulse"
         "pipewire-v4l2"
+        "pipewire-roc"
+        "pipewire-ffado"
         "pipewire-x11-bell"
         "pipewire-zeroconf"
         "lib32-pipewire-jack"
