@@ -1,8 +1,8 @@
 # Maintainer: Librewish <librewish@gmail.com>
 
 pkgname=asian-fonts
-pkgver=2
-pkgrel=2
+pkgver=2.0
+pkgrel=3
 arch=('any')
 url="https://wiki.archlinux.org/index.php/Fonts"
 license=('GPL')
