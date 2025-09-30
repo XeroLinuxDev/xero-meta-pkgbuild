@@ -1,0 +1,18 @@
+pkgname=intel-drv
+pkgver=1.0
+pkgrel=1
+pkgdesc="Intel GPU Drivers & Codecs"
+arch=("any")
+url="https://github.com/xerolinux/intel-drv"
+license=("GPL")
+depends=(
+    "vulkan-intel"
+    "lib32-vulkan-intel"
+    "vulkan-icd-loader"
+    "lib32-vulkan-icd-loader"
+    "linux-firmware-intel"
+    "intel-media-driver"
+    "intel-gmmlib"
+    "onevpl-intel-gpu"
+    "gstreamer-vaapi")
+optdepends=("linux: default linux preset")

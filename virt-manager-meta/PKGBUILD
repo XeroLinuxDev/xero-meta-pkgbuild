@@ -1,20 +1,23 @@
 # Maintainer: Librewish <librewish@gmail.com>
 
 pkgname=virt-manager-meta
-pkgver=5
-pkgrel=2
+pkgver=5.0
+pkgrel=7
 arch=('any')
 url="https://wiki.archlinux.org/index.php/Libvirt"
 license=('GPL')
 pkgdesc="Meta package for libvirt/QEMU/KVM support using virt-manager"
 depends=("bridge-utils"
+		"vde2"
 		"dnsmasq"
-		"iptables"
+		"iptables-nft"
 		"edk2-ovmf"
 		"libvirt"
 		"netcat"
 		"qemu-full"
 		"radvd"
+		"libguestfs"
+		"dmidecode"
 		"virt-viewer"
         "virt-manager")
 install=$pkgname.install

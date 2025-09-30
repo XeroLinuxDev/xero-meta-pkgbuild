@@ -1,0 +1,11 @@
+pkgname=vivaldi-meta
+pkgver=1.0
+pkgrel=1
+pkgdesc="Vivialdi & Codecs"
+arch=("any")
+url="https://github.com/xerolinux/vivaldi"
+license=("GPL")
+depends=(
+    "vivaldi"
+    "upower"
+    "vivaldi-ffmpeg-codecs")

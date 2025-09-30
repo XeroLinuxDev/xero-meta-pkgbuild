@@ -1,0 +1,19 @@
+pkgname=amd-drv
+pkgver=1.0
+pkgrel=1
+pkgdesc="AMD GPU Drivers & Codecs"
+arch=("any")
+url="https://github.com/xerolinux/amd-drv"
+license=("GPL")
+depends=(
+    "vulkan-radeon"
+    "lib32-vulkan-radeon"
+    "vulkan-icd-loader"
+    "lib32-vulkan-icd-loader"
+    "linux-firmware-radeon"
+    "linux-firmware-amdgpu"
+    "amdvlk"
+    "lib32-amdvlk"
+    "vulkan-mesa-layers"
+    "lib32-vulkan-mesa-layers")
+optdepends=("linux: default linux preset")
